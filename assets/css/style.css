@@ -66,7 +66,7 @@ h2 {
     
 }
 .intro-end__row {
-    padding: 40px 100px 60px 100px;
+    padding: 40px 100px;
 }
 .intro-end__col {
     display: -webkit-flex;
@@ -94,11 +94,16 @@ h2 {
     font-weight: 300;
 }
 
+/* ============ PRODUCT ============ */
 
 
 
 
 
+
+
+
+/* ================================== */
 /* ========= RESPONSIVE ========== */
 
 /* PC */
@@ -116,7 +121,6 @@ h1 {
 
 h2 {
     font-size: 28px;
-}
 }
 
 .intro__content {
@@ -136,11 +140,12 @@ h2 {
 }
 
 .intro-end__row {
-    padding: 40px;;
+    padding: 40px;
 }
 
 .intro-col__title, .intro-col__description {
     font-size: 14px;
+}
 }
 /* MOBILE */
 @media (max-width: 767px) {
