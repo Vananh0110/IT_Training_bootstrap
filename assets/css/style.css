@@ -11,7 +11,30 @@ h1 {
 h2 {
     font-size: 36px;
 }
+/* ====== NAVBAR ======== */
+.navbar__logo img {
+    height: 36px;
+    width: auto;
+}
 
+.navbar__logo-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-item span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.fa-solid {
+    font-size: 24px;
+    margin-left: 10px;
+}
 /* ====== INTRO ========= */
 
 .intro {
@@ -330,7 +353,9 @@ h2 {
 
 /* PC */
 @media (min-width: 1024px) {
-    
+    .navbar__tablet, .navbar__mobile {
+        display: none;
+    }
 }
 
 
@@ -343,6 +368,10 @@ h1 {
 
 h2 {
     font-size: 28px;
+}
+
+.navbar__pc, .navbar__mobile {
+    display: none;
 }
 
 .intro__content {
@@ -442,7 +471,9 @@ h2 {
     font-size: 24px;
 }
 
-
+.navbar__pc, .navbar__tablet {
+    display: none;
+}
 
 .intro__content, .intro-end__row, .product__content {
     padding: 40px;
@@ -515,5 +546,9 @@ h2 {
 .footer-col__list a{
     font-size: 16px;
 }
+
+
+
+
 
 }
