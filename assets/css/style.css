@@ -365,10 +365,20 @@ h2 {
     margin-bottom: 30px;
 }
 
-.product-col__link span {
+.product-col__link {
     margin-right: 10px;
+    text-decoration: underline;
+    color: #1e1919;
+    font-weight: 500;
 }
 
+.product-col__description span {
+    font-size: 18px;
+}
+
+.product-col__description i {
+    font-size: 18px;
+}
 
 /* ========== USE =========== */
 .use {
